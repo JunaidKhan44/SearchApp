@@ -42,7 +42,7 @@
 	<bean name="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
 
 
-<!-- hibernate template -->
+        <!-- hibernate template -->
 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate"
 		name="hibernateTemplate">
 		<property name="sessionFactory" ref="factory"></property>
@@ -97,7 +97,7 @@
          -->
         <property name="username" value="root"/>
         <property name="password" value="****"/>
-    </bean>
+   </bean>
 
 	<bean id="transactionManager"
 		class="org.springframework.orm.hibernate5.HibernateTransactionManager">
