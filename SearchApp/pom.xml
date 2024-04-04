@@ -20,47 +20,42 @@
   </properties>
 
   <dependencies>
-  
-  	<!-- all dependencies -->
-  		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+
+  	
 	<dependency>
 	    <groupId>jstl</groupId>
 	    <artifactId>jstl</artifactId>
 	    <version>1.2</version>
 	</dependency>
 
-	  <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	 
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-webmvc</artifactId>
 	    <version>5.2.4.RELEASE</version>
 	</dependency>
 
-	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+	
 	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-orm</artifactId>
 		<version>5.2.3.RELEASE</version>
 	</dependency>
 
-	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	
 	<dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
 		<version>5.4.2.Final</version>
 	</dependency>
 
-	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	<dependency>
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>
 		<version>8.0.26</version>
 	</dependency>
 	  
-  	
-  	<!-- for file upload purpose below 2 jars -->
-
-	<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+  
 	<dependency>
 		<groupId>commons-fileupload</groupId>
 		<artifactId>commons-fileupload</artifactId>
@@ -68,15 +63,11 @@
 	</dependency>
 
 
-	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 	<dependency>
 		<groupId>commons-io</groupId>
 		<artifactId>commons-io</artifactId>
 		<version>2.7</version>
 	</dependency>
-  	
-  	
-  	<!-- end -->
   
   
     <dependency>
